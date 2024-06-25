@@ -92,7 +92,7 @@ const App: React.FC = () => {
       } // on error
     );
   }, []);
-  
+
   return (
     <div style={{ ...layoutStyle, flexDirection: "column" }}>
       <Header style={headerStyle}>
